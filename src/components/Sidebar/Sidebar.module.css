@@ -26,6 +26,7 @@
     list-style: none;
     color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .feed:hover {
@@ -49,7 +50,9 @@
     font-family: 'Yeseva One', cursive;
     font-weight: 500;
     background: #212125;
+    color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .blog:hover {
