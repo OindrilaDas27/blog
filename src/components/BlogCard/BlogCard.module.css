@@ -1,0 +1,37 @@
+.blogCard {
+    height: 22rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.671));    
+    box-shadow: 0px 1px 20px 3px #8e8e8e7d;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    height: 22rem;
+    width: 25rem;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.writeup {
+    margin-top: 8rem;
+    padding: 1rem 1rem;
+    color: rgb(226, 226, 226);
+    text-overflow: ellipsis;
+}
+
+.content {
+    text-overflow: ellipsis;
+}
+
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}

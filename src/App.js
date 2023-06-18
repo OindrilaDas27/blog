@@ -1,16 +1,16 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Sidebar />
-      {/* <Routes>
-        <Route path='/' element={<Sidebar />}/>
-      </Routes> */}
+      <Routes>
+        <Route path='/' element={<HomePage />}/>
+      </Routes>
     </BrowserRouter>
   );
 }

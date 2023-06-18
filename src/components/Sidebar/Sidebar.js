@@ -14,7 +14,7 @@ const Sidebar = () => {
       <div className={styles.mainSegment}>
         <li className={`${styles.feed} ${isOpen ? styles.changed : ''}}`} onClick={toggle}>Blogs<ChevronCompactDown style={{padding: '0 0.5rem', marginTop: '0.5rem'}}/></li>
         {isOpen && <div className={styles.blogs}>
-        <li className={styles.blog}>Fitness and Health</li>
+        <li className={styles.blog}>Lifestyle</li>
         <li className={styles.blog}>Science and Technology</li>
         <li className={styles.blog}>Buisness</li>
         </div>}
