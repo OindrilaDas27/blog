@@ -34,20 +34,6 @@ const fitnessPosts = [
     image: "https://img.freepik.com/free-photo/blond-woman-kitchen-with-fruits_23-2148173248.jpg",
     content: "Mauris sagittis mi ac lectus vestibulum, ac condimentum risus iaculis."
   },
-  {
-    id: 5,
-    title: "Importance of Building muscle mass",
-    category: "Fitness and Health",
-    image: "https://cdn.outsideonline.com/wp-content/uploads/2022/12/2023-fitness-predictions_s.jpg",
-    content: "Mauris sagittis mi ac lectus vestibulum, ac condimentum risus iaculis."
-  },
-  {
-    id: 7,
-    title: "Importance of Hydration",
-    category: "Fitness and Health",
-    image: "https://www.newheightstherapy.com/wp-content/uploads/2017/12/Important-of-Hydraion.jpg",
-    content: "Mauris sagittis mi ac lectus vestibulum, ac condimentum risus iaculis."
-  }
 ];
 
 export default fitnessPosts;

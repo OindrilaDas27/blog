@@ -1,0 +1,28 @@
+.blogs {
+    font-family: 'Yeseva One', cursive;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #212125; 
+}
+
+.section {
+    height: 100vh;
+    padding: 2rem 0 2rem 1rem;
+}
+
+.heading {
+    padding-top: 2.5rem;
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #212125;
+}
+
+.content {
+    height: 22rem;
+    width: fit-content;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
